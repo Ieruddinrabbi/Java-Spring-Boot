@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" dir=ltr>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" th:href="@{Mystyle.css}" />
+</head>
+<body>
+	        <h3 th:text="${UserName}"> </h3>
+			<h3 th:text="${Password}"> </h3>
+		<form action="Post">
+			<div class="hcenter">
+			
+			<input type="text" name="TxtMsg" value="write here">
+			
+			<span>
+			<input type="submit" name="" value="post">
+			</span>
+		
+			</div>	
+			<div class="button"> <button> Like Button </button></div>	
+			</form>
+			
+			
+			  
+			
+		
+
+</body>
+</html>
